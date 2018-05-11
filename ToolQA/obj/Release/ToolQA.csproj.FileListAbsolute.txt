@@ -1,0 +1,8 @@
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Release\ToolQA.exe.config
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Release\ToolQA.exe
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Release\ToolQA.pdb
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Release\WebDriver.dll
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Release\WebDriver.xml
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\obj\Release\ToolQA.csproj.CoreCompileInputs.cache
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\obj\Release\ToolQA.exe
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\obj\Release\ToolQA.pdb
