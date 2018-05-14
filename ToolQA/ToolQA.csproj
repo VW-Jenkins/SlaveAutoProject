@@ -51,9 +51,21 @@
     <Reference Include="WebDriver, Version=3.12.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.WebDriver.3.12.0\lib\net45\WebDriver.dll</HintPath>
     </Reference>
+    <Reference Include="WebDriver.Support, Version=3.12.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.12.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckBoxRadio.cs" />
+    <Compile Include="DriverCommands.cs" />
+    <Compile Include="DriverCommands2.cs" />
+    <Compile Include="DropDownBox.cs" />
+    <Compile Include="FindElementCommands.cs" />
+    <Compile Include="FindElementsCommands.cs" />
     <Compile Include="FirstTestCases.cs" />
+    <Compile Include="HandleDynamicsTable.cs" />
+    <Compile Include="MultipleSelection.cs" />
+    <Compile Include="Navigation.cs" />
     <Compile Include="NUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -15,3 +15,5 @@ C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Debug\Mono.Cecil.dll
 C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Debug\nunit.framework.dll
 C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Debug\nunit.framework.pdb
 C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Debug\nunit.framework.xml
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Debug\WebDriver.Support.dll
+C:\Users\v-victw\Desktop\ToolQA\ToolQA\bin\Debug\WebDriver.Support.xml
