@@ -42,6 +42,8 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,23 +58,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alerts.cs" />
     <Compile Include="CheckBoxRadio.cs" />
+    <Compile Include="data\DownloadDemo.cs" />
     <Compile Include="DriverCommands.cs" />
     <Compile Include="DriverCommands2.cs" />
     <Compile Include="DropDownBox.cs" />
+    <Compile Include="ExplicitWait.cs" />
     <Compile Include="FindElementCommands.cs" />
     <Compile Include="FindElementsCommands.cs" />
     <Compile Include="FirstTestCases.cs" />
     <Compile Include="HandleDynamicsTable.cs" />
+    <Compile Include="ImplicitWait.cs" />
     <Compile Include="MultipleSelection.cs" />
+    <Compile Include="MultipleWindows.cs" />
     <Compile Include="Navigation.cs" />
     <Compile Include="NUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="data\sample.zip" />
     <None Include="packages.config" />
+    <None Include="sample.zip" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="sample_1.txt" />
+    <Content Include="sample_2.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -14,6 +14,7 @@ namespace ToolQA
     class FindElementsCommands
     {
         [Test]
+        [Category("FindElements")]
         public void TestFindElementsCommands() {
             IWebDriver driver = new FirefoxDriver();
 

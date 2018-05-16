@@ -13,6 +13,7 @@ namespace ToolQA
     class CheckBoxRadio
     {
         [Test]
+        [Category("CheckBox&Radio")]
         public void TestCheckBox_Radio() {
             IWebDriver driver = new FirefoxDriver();
 

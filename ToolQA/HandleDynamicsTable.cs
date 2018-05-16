@@ -13,6 +13,7 @@ namespace ToolQA
     class HandleDynamicsTable
     {
         [Test]
+        [Category("HandleTable")]
         public void TestDyanmicsTable() {
             IWebDriver driver = new FirefoxDriver();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromMinutes(3);

@@ -15,6 +15,7 @@ namespace ToolQA
     class MultipleSelection
     {
         [Test]
+        [Category("MutipleSelection")]
         public void TestMultipleSelection() {
             IWebDriver driver = new FirefoxDriver();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromMinutes(3);

@@ -13,6 +13,7 @@ namespace ToolQA
     class Navigation
     {
         [Test]
+        [Category("NavigationCommand")]
         public void NavigationCommands() {
             IWebDriver driver = new FirefoxDriver();
 

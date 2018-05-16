@@ -24,6 +24,7 @@ namespace ToolQA
         public void Initialize() {
             driver = new FirefoxDriver();
         }
+        [Category("FirstCases")]
         [Test]
         public void OpenAppTest() {
             driver.Url = "http://www.demoqa.com";

@@ -12,6 +12,7 @@ namespace ToolQA
     class DriverCommands2
     {
         [Test]
+        [Category("DriverCommand")]
         public void TestDriveCommands2(){
             IWebDriver drive = new FirefoxDriver();
             drive.Url = "http://demoqa.com/frames-and-windows/";

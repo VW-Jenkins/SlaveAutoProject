@@ -15,6 +15,7 @@ namespace ToolQA
     class DropDownBox
     {
         [Test]
+        [Category("DropBoxList")]
         public void TestDropdownBox() {
             IWebDriver driver = new FirefoxDriver();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromMinutes(3);
